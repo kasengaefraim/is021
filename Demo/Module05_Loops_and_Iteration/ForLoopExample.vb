@@ -3,21 +3,32 @@
 
     Public Sub Show() Implements ISlide.Show
 
-        Console.WriteLine("=== FOR LOOP ===")
+        WriteTitle("FOR LOOP")
         Console.WriteLine()
 
         Console.WriteLine("Used when we know how many times to repeat.")
         Console.WriteLine()
 
+        Console.WriteLine("Synthax:")
+        Console.WriteLine()
+
+        WriteSynthax("For i As Integer = start To end")
+        WriteSynthax("      code here")
+        WriteSynthax("Next")
+        Console.WriteLine()
+
         Console.WriteLine("Example:")
         Console.WriteLine()
 
-        Console.WriteLine("For i As Integer = 1 To 5")
-        Console.WriteLine("    Console.WriteLine(i)")
-        Console.WriteLine("Next")
-
+        WriteCode("For i As Integer = 1 To 5")
+        WriteCode("    Console.WriteLine(i)")
+        WriteCode("Next")
         Console.WriteLine()
-        Console.WriteLine("Output: 1 2 3 4 5")
+
+        WriteOutput("Output:")
+        For i As Integer = 1 To 5
+            WriteOutput(i)
+        Next
 
     End Sub
 
