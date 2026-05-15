@@ -3,7 +3,7 @@
 
     Public Sub Show() Implements ISlide.Show
 
-        Console.WriteLine("=== METHODS AND FUNCTIONS ===")
+        Console.WriteLine("METHODS AND FUNCTIONS")
         Console.WriteLine()
 
         Console.WriteLine("A method is a block of code that performs a specific task.")

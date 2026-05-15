@@ -3,7 +3,7 @@
 
     Public Sub Show() Implements ISlide.Show
 
-        Console.WriteLine("=== RETURN VALUES ===")
+        Console.WriteLine("RETURN VALUES")
         Console.WriteLine()
 
         Console.WriteLine("Functions must return a value using Return keyword.")
@@ -18,8 +18,15 @@
 
         Console.WriteLine()
         Console.WriteLine("Usage:")
-        Console.WriteLine("Dim result = Square(4) ' 16")
+        Console.WriteLine("Dim result = Square(4)")
+
+        Console.WriteLine("Output:")
+        Dim result = Square(4)
 
     End Sub
+
+    Function Square(num As Integer) As Integer
+        Return num * num
+    End Function
 
 End Class
