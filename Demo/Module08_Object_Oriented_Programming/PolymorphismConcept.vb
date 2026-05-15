@@ -3,7 +3,7 @@
 
     Public Sub Show() Implements ISlide.Show
 
-        Console.WriteLine("=== POLYMORPHISM ===")
+        WriteTitle("POLYMORPHISM")
         Console.WriteLine()
 
         Console.WriteLine("Polymorphism means 'many forms'.")

@@ -1,9 +1,11 @@
-﻿Public Class AbstractionConcept
+﻿
+Public Class AbstractionConcept
     Implements ISlide
+
 
     Public Sub Show() Implements ISlide.Show
 
-        Console.WriteLine("=== ABSTRACTION ===")
+        WriteTitle("ABSTRACTION")
         Console.WriteLine()
 
         Console.WriteLine("Abstraction means hiding complex details and showing only what is necessary.")
