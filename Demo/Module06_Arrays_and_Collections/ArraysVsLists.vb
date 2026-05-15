@@ -3,7 +3,7 @@
 
     Public Sub Show() Implements ISlide.Show
 
-        Console.WriteLine("=== ARRAYS VS LISTS ===")
+        WriteTitle("ARRAYS VS LISTS")
         Console.WriteLine()
 
         Console.WriteLine("ARRAYS:")

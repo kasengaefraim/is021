@@ -8,6 +8,8 @@
         slides.Add(New MultiDimensionalArray())
         slides.Add(New ListCollection())
         slides.Add(New ArraysVsLists())
+        slides.Add(New Dictionaries())
+        slides.Add(New Sets())
         slides.Add(New Module6Quiz())
         slides.Add(New Module6Practice())
         Return slides

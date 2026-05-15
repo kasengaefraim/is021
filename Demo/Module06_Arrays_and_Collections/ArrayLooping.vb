@@ -3,7 +3,7 @@
 
     Public Sub Show() Implements ISlide.Show
 
-        Console.WriteLine("=== LOOPING THROUGH ARRAYS ===")
+        WriteTitle("LOOPING THROUGH ARRAYS")
         Console.WriteLine()
 
         Console.WriteLine("We use loops to access all elements in an array.")
